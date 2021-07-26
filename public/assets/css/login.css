@@ -3,7 +3,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url('image/blur-hospital.jpg');
+    background-image: url('../image/blur-hospital.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 backdrop-filter: hue-rotate(120deg);

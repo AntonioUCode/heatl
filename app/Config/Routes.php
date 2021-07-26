@@ -52,3 +52,4 @@ if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php'))
 	require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
 $routes->get('datosadd', 'Add_datos::index');
+$routes->get('SeleccionarUs', 'Cards_us::index');
