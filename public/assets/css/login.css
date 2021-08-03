@@ -37,15 +37,15 @@ backdrop-filter: hue-rotate(120deg);
     top: -75px;
     border-radius: 50%;
     background: white;
-    opacity: 0.5;
-        padding: 10px;
+    border: 1px solid rgb(10, 10, 10);       
+     padding: 10px;
     text-align: center;
 }
 .brand_logo {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
 }
 .form_container {
     margin-top: 100px;
@@ -76,3 +76,17 @@ backdrop-filter: hue-rotate(120deg);
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #439df1  !important;
 }
+
+
+/* @keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+
+  .imgr{
+  
+    -webkit-animation: 3s rotate linear 0.2ms;
+    animation: 3s rotate linear 0.2ms;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+} */

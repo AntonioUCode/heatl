@@ -53,3 +53,4 @@ if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php'))
 }
 $routes->get('datosadd', 'Add_datos::index');
 $routes->get('SeleccionarUs', 'Cards_us::index');
+$routes->get('iniciousuario', 'Ver_cards::index' );
